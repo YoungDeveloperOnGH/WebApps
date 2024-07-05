@@ -1,0 +1,31 @@
+.sound-board {
+    margin: 0 40px;
+}
+
+.sound-board__sounds {
+    display: none;
+}
+
+.sound-board__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.sound-board__btn {
+    background-color: rgb(93, 190, 254);
+    padding: 15px 25px;
+    border-radius: 10px 10px 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.8s;
+    border: none;
+}
+
+.sound-board__btn:hover {
+    scale: 1.1;
+    box-shadow: 0px 0px 7px paleturquoise;
+    transition: 0.8s;
+}
